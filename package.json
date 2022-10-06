@@ -1,0 +1,31 @@
+{
+  "name": "fastify-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd -f env/.env node src/server.js"
+  },
+  "author": "khoinp",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@fastify/request-context": "^4.0.0",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.7.0",
+    "fastify-swagger": "^5.2.0",
+    "kafkajs": "^2.2.0",
+    "liquibase": "^4.4.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.23.2",
+    "uuid": "^9.0.0",
+    "web3": "^1.8.0",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
